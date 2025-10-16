@@ -1,0 +1,35 @@
+======================================================================
+ENHANCED MODEL TRAINING SUMMARY
+======================================================================
+
+Total Features: 391
+Number of Folds: 5
+
+Fold Scores:
+  Fold 1: 0.79031
+  Fold 2: 0.79750
+  Fold 3: 0.78940
+  Fold 4: 0.79635
+  Fold 5: 0.78976
+
+Mean AUC: 0.79266
+Std AUC: 0.00351
+Overall OOF AUC: 0.79264
+
+======================================================================
+Model Parameters:
+======================================================================
+objective: binary
+metric: auc
+boosting_type: gbdt
+num_leaves: 67
+max_depth: 13
+learning_rate: 0.010004219424732138
+feature_fraction: 0.6329129931469809
+bagging_fraction: 0.8062944304248291
+bagging_freq: 2
+min_child_samples: 136
+min_child_weight: 0.02793882913795377
+reg_alpha: 0.8658581250048688
+reg_lambda: 18.76093655187994
+scale_pos_weight: 9.374436274260821
